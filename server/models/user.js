@@ -17,7 +17,6 @@ var User = new Schema({
   }
 });
 
-
 // hash before saving to database
 User.pre('save', function(next) {
   var user = this;
